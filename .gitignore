@@ -1,0 +1,6 @@
+/node_modules/*
+.DS_Store
+package-lock.json
+/smart_contracts/build/*
+/smart_contracts/.env
+smart_contracts/.node-xmlhttprequest-sync-29680
