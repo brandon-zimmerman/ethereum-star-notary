@@ -123,7 +123,7 @@ Here is a screen shot of the Star Notary tab.
 
 After entering the required star data and clicking the "Claim Star" button MetaMask will prompt for confirmation as shown below. After confirming the request, MetaMask will submit the request.
 
-![MetaMask - Create Star Token](C:\Users\Brandon\decentralized-notary\images\web-create-star-2.png)
+![MetaMask - Create Star Token](images/web-create-star-2.png)
 
 
 
@@ -133,7 +133,7 @@ Once the token creation has completed the star can put the star up for sale as s
 
 Once the contract creation transaction has completed the star can be retrieved using the "Star Lookup" tab as shown below.
 
-![Star Lookup](C:\Users\Brandon\decentralized-notary\images\web-lookup-star-1.png)
+![Star Lookup](images/web-lookup-star-1.png)
 
 
 
