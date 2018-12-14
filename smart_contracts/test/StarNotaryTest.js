@@ -22,7 +22,7 @@ contract('StarNotary', accounts => {
             await this.contract.createStar(name, starStory, ra, dec, mag, starId, {from: user1});
 
             let star = await this.contract.tokenIdToStarInfo(starId);
-            assert.equal(star[0], name);
+            assert.deepEqual(star, [name, starStory, ra, dec, mag]);
         });       
     });
 
@@ -51,7 +51,7 @@ contract('StarNotary', accounts => {
                 let newMag = i.toString();
                 await this.contract.createStar(name, starStory, newRa, newDec, newMag, id, {from: user1});
                 let starInfo = await this.contract.tokenIdToStarInfo(id);
-                assert.equal(starInfo[0], name);
+                assert.deepEqual(starInfo, [name, starStory, newRa, newDec, newMag]);                
             }
         });
     });
